@@ -1,0 +1,9 @@
+carousel :
+largeur : 1359 px
+hauteur : 700 px
+
+
+
+image texte :
+largeur : 2500 px
+hauteur : 2500 px

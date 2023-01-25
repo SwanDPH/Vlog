@@ -1,0 +1,191 @@
+body{
+    /* background-image: url("Element/Image/Fond.webp"); */
+    background: rgb(253,240,231);
+    background: radial-gradient(circle, rgba(253,240,231,1) 1%, rgba(230,215,205,1) 99%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px;
+}
+
+.col>p{
+    color: #3b3939;
+    font-size: 28px;
+    font-family: 'Impact', Courier, monospace;
+    letter-spacing: 4;
+}
+
+em{
+    color: #a3a2a2;
+    font-size: 26px;
+    letter-spacing: 4;
+}
+
+
+.zoneImageParagraphe{
+    perspective: 500px;
+}
+
+.imageee{
+    width: 410px;
+    height: 410px;
+}
+
+.zoneImageParagraphe>img{
+    margin-left: 90px;
+    transform: rotateX(8deg) rotateY(12deg);
+    transition: 0.2s;
+}
+
+.secondeColonne>img{
+    margin-right: 90px;
+    transform: rotateX(-2deg) rotateY(-12deg);
+    transition: 0.2s;
+}
+
+
+.px-md-4{
+    color:rgb(174, 165, 159);
+    font-family: 'Ink Free', Courier, monospace;
+    letter-spacing: 4px;
+}
+
+.zoneImageParagraphe>img:hover{
+    color: #fbefb4;
+    transform: rotateX(2deg) rotateY(2deg);
+    transform-style: preserve-3d;
+    text-decoration-line:underline;
+    text-decoration-style:solid;
+    text-decoration-color: #ffda2a;
+    text-underline-offset: 100%;
+}
+
+.row{
+    margin-top: 80px;
+}
+
+
+.paragraphe{
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.modal{
+    background-color: red;
+    width: 100%;
+    height: 100%;
+}
+
+.modal-body{
+    background-color: yellow;
+    width: 100%;
+    height: 100%;
+}
+
+
+.choixPays{
+    width: 400px;
+    height: 480px;
+}
+
+
+.aboutUsImage>div{
+position: relative;
+width: 104%;
+height: 410px;
+}
+
+.swanPicture{
+    -webkit-box-shadow: 186px 80px 1px 59px rgb(247 234 225);
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.swanPicture:hover{
+    filter: grayscale(0%);
+}
+
+.aboutUsImageLau>div{
+width: 104%;
+height: 410px;
+}
+
+.LauPicture{
+    margin-left: 329px;
+    -webkit-box-shadow: -191px 80px 1px 59px rgb(225 243 247);
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.LauPicture:hover{
+    margin-left: 300px;
+    -webkit-box-shadow: -191px 80px 1px 59px rgb(225 243 247);
+    filter: grayscale(0%);
+}
+
+
+.aboutUsParagraphe{
+    margin-left: 149px;
+}
+
+@media screen and (max-width: 1000px) {
+    .aboutUsParagraphe{
+        margin-left: 49px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .aboutUsParagraphe{
+        margin-left: 20px;
+    }
+}
+
+.aboutUsParagraphe>.NomPrenom{
+    font-size: 57px;
+    margin-top: 0px;
+}
+.aboutUsParagraphe>.row{
+    margin-top: -5px;
+}
+
+.paragrapheNomPrenom{
+    font-size: 27px;
+    color: #131838;
+}
+
+.prenom{
+    font-size: 45px;
+}
+
+.NomPrenom{
+    line-height:1;
+    text-align: right;
+}
+.NomPrenom>p{
+    color: #131838;
+}
+.NomPrenomLau{
+    line-height:1;
+    text-align: left;
+}
+.NomPrenomLau>p{
+    color: #131838;
+}
+
+@media screen and (max-width: 763px) {
+    .zoneImageParagraphe>img{
+        margin-left: 0px;
+        transform: rotateX(3deg) rotateY(-12deg);
+    }
+
+
+        .col>p{
+            color: #3b3939;
+            font-size: 20px;
+            font-family: 'Impact', Courier, monospace;
+            letter-spacing: 4;
+        }
+        
+        em{
+            color: #a3a2a2;
+            font-size: 18px;
+            letter-spacing: 4;
+        }
+        
+    }
